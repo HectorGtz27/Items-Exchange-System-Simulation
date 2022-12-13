@@ -1,4 +1,5 @@
-﻿  main.cpp
-  Producto.cpp
+﻿  Comprador.cpp
+  Proveedor.cpp
+  main.cpp
   Generando código...
   SituacionProblema.vcxproj -> C:\Users\alang\Documents\Tareas\Orientada_Objetos\SituacionProblema\x64\Debug\SituacionProblema.exe

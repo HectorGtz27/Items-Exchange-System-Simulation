@@ -1,0 +1,8 @@
+Ticket de: sofia
+Compro el producto: cuaderno
+Cantidad: 25
+Precio unitario: 100
+Saldo original: 100000
+Saldo final: 97500
+Gracias por comprar 
+--------------

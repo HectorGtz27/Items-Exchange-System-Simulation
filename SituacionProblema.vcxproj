@@ -129,8 +129,12 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Producto.cpp" />
+    <ClCompile Include="Comprador.cpp" />
+    <ClCompile Include="Proveedor.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Comprador.h" />
+    <ClInclude Include="Proveedor.h" />
     <ClInclude Include="Producto.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

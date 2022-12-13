@@ -1,24 +1,33 @@
-#include <stdio.h>
-#include <string>
-using namespace std;
-#ifndef Producto_h
-#define Producto_h
+#pragma once
 
-class Producto {
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+class Producto
+{
 private:
 	string nombreProducto;
 	double precioProducto;
-
 public:
+	//CONSTRUCTOR
 	Producto();
-	Producto(string, double);
+	Producto(string cNombreProducto, double cPrecioProducto);
 
+	//GETTERS
 	string getNombreProducto();
 	double getPrecioProducto();
+
+	//SETTERS
 	void setNombreProducto(string cNombreProducto);
 	void setPrecioProducto(double cPrecioProducto);
 
 
+	//DESTRUCTOR
+	~Producto();
 };
 
-#endif
+
+
